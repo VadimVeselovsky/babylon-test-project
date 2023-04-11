@@ -1,20 +1,20 @@
 {
-	"name": "graphics_dev_task",
-	"version": "1.0.0",
-	"description": "PixCap test task for Graphics Developer",
-	"scripts": {
-		"dev": "webpack serve --config webpack.config.js"
-	},
-	"author": "PixCap",
-	"devDependencies": {
-		"ts-loader": "^9.2.5",
-		"typescript": "^4.3.5",
-		"webpack": "^5.49.0",
-		"webpack-cli": "^4.7.2",
-		"webpack-dev-server": "^3.11.2"
-	},
-	"dependencies": {
-		"babylonjs": "^5.0.0-alpha.37",
-		"babylonjs-loaders": "^5.0.0-alpha.37"
-	}
+  "name": "graphics_dev_task",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "sass": "^1.61.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "babylonjs": "^5.0.0-alpha.37",
+    "babylonjs-loaders": "^5.0.0-alpha.37",
+    "vite": "^4.1.4"
+  }
 }

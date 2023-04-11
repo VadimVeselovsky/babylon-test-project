@@ -1,12 +1,13 @@
+# original readme/task
 ### Install
 ```npm install```
 
 ### Run
 * ```npm run dev```
-* Go to `localhost:8080` in the web browser
+* Open browser on the link provided in the terminal
 
 ### Environment
-The provided ```index.ts``` script loads a simple Babylon.js scene and adds three primitive objects: Cylinder, Cube, IcoSphere.
+Main vue app loads independent components for both tasks
 
 #### Task 1) UI & Primitive Meshes
 Selecting a mesh should bring up a UI window with primitives parameters adjustment. 

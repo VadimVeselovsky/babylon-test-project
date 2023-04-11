@@ -199,6 +199,8 @@ export default {
       this.prepareMeshes(this.scene);
 
       this.runScene(engine, this.scene);
+
+      // this.scene.debugLayer.show();
     },
 
     runScene(engine, scene) {

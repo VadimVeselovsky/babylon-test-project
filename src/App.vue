@@ -25,7 +25,7 @@ export default {
 
   data() {
     return {
-      task: 2,
+      task: 1,
     };
   },
 };
